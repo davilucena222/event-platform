@@ -8,6 +8,8 @@ import {
 
 import "@vime/core/themes/default.css";
 import { useGetLessonBySlugQuery } from "../graphql/generated";
+import { Loading } from "../components/Loading";
+
 
 interface VideoProps {
   lessonSlug: string;
@@ -23,7 +25,7 @@ export function Video(props: VideoProps) {
   if (!data || !data.lesson) {
     return (
       <div className="flex-1">
-        <p>Carregando...</p>
+        <Loading />
       </div>
     );
   }

@@ -2,6 +2,7 @@ import { useState, FormEvent } from "react";
 import { useNavigate } from "react-router-dom";
 import { Logo } from "../components/Logo";
 import { useCreateSubscriberMutation } from "../graphql/generated";
+import classNames from 'classnames';
 import mockupImg from "../assets/code-mockup.png";
 
 export function Subscribe() {
@@ -31,10 +32,9 @@ export function Subscribe() {
           <Logo />
 
           <h1 className="mt-8 text-[2.5rem] leading-tight">
-            Construa uma <strong className="text-blue-500">aplicação completa</strong>, do zero, com <strong className="text-blue-500">React JS</strong>
-          </h1>
+            <strong className="text-blue-500">Event Platform,</strong> uma plataforma completa para você realizar o seu evento online através de <strong className="text-blue-500">aulas, vídeos, cursos e workshops</strong></h1>
           <p className="mt-4 text-gray-200 leading-relaxed">
-            Em apenas uma semana você vai dominar na prática uma das tecnologias mais utilizadas e com alta demanda para acessar as melhores oportunidades do mercado.
+            Surpreenda a sua audiência com um conteúdo de qualidade e fazendo uso da melhor plataforma de eventos onlines
           </p>
         </div>
 
@@ -58,9 +58,11 @@ export function Subscribe() {
             <button
               type="submit"
               disabled={loading}
-              className="mt-4 bg-green-500 uppercase py-4 rounded font-bold text-sm hover:bg-green-700 transition-colors disabled:opacity-50"
+                className={classNames('mt-4 bg-green-500 uppercase py-4 rounded font-bold text-sm hover:bg-green-700 transition-colors disabled:opacity-50', {
+                  'cursor-not-allowed': !name || !email
+                })}
             >
-              Garantir minha vaga
+              Assinar
             </button>
           </form>
         </div>
