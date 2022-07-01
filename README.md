@@ -22,7 +22,7 @@ This project was developed with the following tecnologies:
 ## 💡 About the project 
 Event Platform is a complete web application that you can upload videos, classrooms, courses and workshops with your audience that has the interest in learn something you can offer to them, like learnings, teachings, lectures, content restricted only to subscribers of your course, platform, newsletter or anything else that you can aggregate, share and teach to other people.
 
-If you want a place to upload your videos and contents, Event Platform is the best solution for you, come on and take a look to the Event Platform in production.
+If you want a place to upload your videos and contents, Event Platform is the best solution for you, come on and take a look to the <a target="_blank" href="https://event-platform-jade.vercel.app/">Event Platform</a> in production.
 
 
 ## 🚀 Features
