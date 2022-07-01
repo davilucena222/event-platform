@@ -1,4 +1,6 @@
 ## 🔖 Event Platform
+The <a href="https://www.figma.com/file/2egeObmXZ7sRwJtR96h4aQ/Plataforma-de-evento---Ignite-Lab-(Community)?node-id=0%3A1">layout</a> was created by <a target="_blank" href="https://www.rocketseat.com.br">Rocketseat</a> and I delveloped the application.
+
 ![image](https://user-images.githubusercontent.com/56702492/176811141-b1287847-ed90-45d7-a915-424ac7bccf70.png)
 
 
